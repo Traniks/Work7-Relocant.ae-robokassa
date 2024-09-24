@@ -1024,12 +1024,12 @@ button.swiper-pagination-bullet {
 	.hero__banner-img picture {
 		position: absolute;
 		display: block;
-		bottom: -215px;
+		bottom: -200px;
 		height: auto
 	}
 
 	.hero__banner-img picture img {
-		width: 500px
+		width: 535px
 	}
 
 	.hero__banner-content {
@@ -2064,7 +2064,7 @@ button.swiper-pagination-bullet {
 }
 
 .contacts__wrapper-2 {
-	margin: 0 auto 60px auto;
+	margin: 0 auto 0 auto;
 	display: flex;
 	max-width: 300px;
 	flex-direction: column;
@@ -2089,6 +2089,72 @@ button.swiper-pagination-bullet {
 	left: 50%;
 	transform: translateX(-50%);
 	bottom: 0
+}
+
+.contacts__ofert {
+	margin: 30px auto 0 auto;
+	padding: 30px;
+	background: var(--bg-box);
+	border-radius: 30px;
+	color: var(--text-main);
+	max-width: 300px;
+}
+
+.contacts__ofert a {
+	font-size: 30px;
+	font-weight: 800;
+	line-height: 30px;
+	color: var(--text-main);
+	border-bottom: dashed;
+}
+
+.contacts__ofert-content {
+	margin: 20px 0 0 0;
+
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: space-between;
+	align-items: start;
+}
+
+.contacts__ofert-ip {
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: start;
+}
+
+.contacts__ofert-ip span {
+	font-size: 28px;
+	font-weight: 800;
+	line-height: 30px;
+}
+
+.contacts__ofert-inn {
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: start;
+}
+
+.contacts__ofert-inn span {
+	font-size: 28px;
+	font-weight: 800;
+	line-height: 30px;
+}
+
+.contacts__ofert-org {
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: start;
+}
+
+.contacts__ofert-org span {
+	font-size: 28px;
+	font-weight: 800;
+	line-height: 30px;
 }
 
 @media(min-width: 1024px) {
@@ -2150,6 +2216,15 @@ button.swiper-pagination-bullet {
 	.contacts__img img {
 		max-width: 540px;
 		left: 75%
+	}
+
+	.contacts__ofert {
+		max-width: unset;
+	}
+
+	.contacts__ofert-content {
+		flex-direction: row;
+		align-items: center;
 	}
 }
 
@@ -2442,6 +2517,7 @@ button.swiper-pagination-bullet {
 	/* width: 500px; */
 	font-size: clamp(1.563rem, 1.28rem + 1.41vw, 2.375rem);
 	max-width: 500px;
+
 	span {
 		text-wrap: balance;
 	}
@@ -2889,19 +2965,22 @@ button.swiper-pagination-bullet {
 		bottom: -200px;
 	}
 }
+
 @media (min-width: 1096px) {
 	.hero__banner-img picture {
-		bottom: -185px;
+		bottom: -200px;
 	}
 }
+
 @media screen and (min-width: 1108px) {
 	.hero__banner-img picture {
-		bottom: -185px;
+		bottom: -200px;
 	}
 }
+
 @media screen and (min-width: 1225px) {
 	.hero__banner-img picture {
-		bottom: -215px;
+		bottom: -233px;
 	}
 }
 
