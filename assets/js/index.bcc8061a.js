@@ -4447,8 +4447,8 @@
 				setInterval(() => {
 					;(e.innerHTML =
 						t % 2 == 0
-							? '<span class="promotion">124990</span>RUB'
-							: '<span class="promotion">124990</span>RUB'),
+							? '<span class="promotion">99990</span>RUB'
+							: '<span class="promotion">99990</span>RUB'),
 						(t += 1)
 				}, 2e3)
 				const s = document.getElementById('dateNum'),
